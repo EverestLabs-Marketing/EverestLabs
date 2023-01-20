@@ -10,7 +10,33 @@ header.Header--top {
     padding: 1rem;
     .Header-nav-inner {
       a.Header-nav-item {
-        &:last-child(1) {
+        &:nth-last-child(1) {
+          display: none;
+        }
+        &:last-child {
+          background: #087047;
+          color: white;
+          padding: 10px 1rem;
+          border-radius: 5px;
+        }
+        
+      }
+    }
+  }
+}
+/* End */header.Header--top {
+  /* Medium and up */
+  @media screen and (min-width: 40em) {
+    position: fixed;
+    background: none;
+    width: 100%;
+    z-index: 3;
+  }
+  .Header-inner {
+    padding: 1rem;
+    .Header-nav-inner {
+      a.Header-nav-item {
+        &:nth-last-child(1) {
           display: none;
         }
         &:last-child {
