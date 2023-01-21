@@ -281,7 +281,11 @@ header.Header--top {
       filter: grayscale(100%);
     }
     .summary-excerpt {
-      
+      p {
+        &:before {
+          content: "";
+        }
+      }
     }
   }
 }
