@@ -2,9 +2,9 @@ $(window).scroll(function() {
 	var scroll = $(window).scrollTop();
 
 	if (scroll >= 50) {
-		 $(".clearHeader").addClass("darkHeader");
+		 $(".Header--top").addClass("scroll-nav-bg");
 	} else {
-		 $(".clearHeader").removeClass("darkHeader");
+		 $(".Header--top").removeClass("scroll-nav-bg");
 	}
 });
 
