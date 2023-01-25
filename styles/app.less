@@ -296,9 +296,20 @@ header.Header--top {
   }
 }
 
-/* Robot */
 #block-yui_3_17_2_1_1674610674510_29053 {
   opacity: 0;
+  &.fade-in {
+    animation: fade-in 3s forwards;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #homepage-insights {
