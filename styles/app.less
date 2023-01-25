@@ -312,7 +312,16 @@ header.Header--top {
         height: 13px;
         top: 7px;
         left: 0px;
-        box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.05);
+        border-radius: 50%;
+      }
+      &:before{
+        content: '';
+        position: absolute;
+        background: #48c2c5;
+        width: 13px;
+        height: 13px;
+        top: 7px;
+        left: 0px;
         border-radius: 50%;
         animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
       }
