@@ -319,12 +319,12 @@ header.Header--top {
         content: '';
         position: absolute;
         background: rgba(73,194,197, 0.5);
-        width: 13px;
-        height: 13px;
+        width: 26px;
+        height: 26px;
         top: 7px;
         left: 0px;
         border-radius: 50%;
-        animation: pulse-dot 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -.4s infinite;
+        animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
         z-index: 0;
       }
       &:first-child {
@@ -348,17 +348,6 @@ header.Header--top {
   }
 }
 
-@keyframes pulse-dot {
-  0% {
-    transform: scale(.8);
-  }
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(.8);
-  }
-}
 
 /* Robot Arm Image */
 #block-yui_3_17_2_1_1674610674510_29053 {
