@@ -60,11 +60,7 @@ input {
   list-style: none;
   padding: 0px;
   li {
-    padding-bottom: 1.5rem;
-    border-left: 2px solid #ddd;
-    position: relative;
-    padding-left: 3rem;
-    margin-left: 10px;
+   
     &:marker {
       color: white !important;
     }
@@ -72,7 +68,16 @@ input {
       margin-left: 12px;
       border: 0px;
     }
-    &:after{
+    &:before {
+      content: '';
+      position: absolute;
+      padding-bottom: 1.5rem;
+    border-left: 2px solid #ddd;
+    position: relative;
+    padding-left: 3rem;
+    margin-left: 10px;
+    }
+    &:after {
       content: '';
       position: absolute;
       background: #48c2c5;
