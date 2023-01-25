@@ -345,6 +345,55 @@ header.Header--top {
   }
 }
 
+/* Callout Points - Right  */
+#block-yui_3_17_2_1_1674610674510_14994 {
+  ul {
+    li {
+      position: relative;
+      padding-left: 1.78rem;
+      margin-bottom: 5rem;
+      width: 100%;
+      &:before {
+        content: '';
+        position: absolute;
+        background: #48c2c5;
+        width: 13px;
+        height: 13px;
+        top: 7px;
+        left: 0px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        background: rgba(73,194,197, 1);
+        width: 29px;
+        height: 29px;
+        top: -1px;
+        left: -8px;
+        border-radius: 50%;
+        animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        z-index: 0;
+      }
+      &:first-child {
+        margin-left: 2.5rem;
+        width: 127%;
+      }
+      &:nth-child(2) {
+        margin-left: -3rem;
+      }
+      p {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 @keyframes pulse-ring {
   0% {
     transform: scale(.78);
