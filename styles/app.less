@@ -60,7 +60,11 @@ input {
   list-style: none;
   padding: 0px;
   li {
-   position: relative;
+    padding-bottom: 1.5rem;
+    border-left: 2px solid #ddd;
+    position: relative;
+    padding-left: 3rem;
+    margin-left: 10px;
     &:marker {
       color: white !important;
     }
@@ -68,14 +72,16 @@ input {
       margin-left: 12px;
       border: 0px;
     }
-    &:before {
+    &:after {
       content: '';
       position: absolute;
-      padding-bottom: 1.5rem;
-      border-left: 2px solid #ddd;
-      position: relative;
-      padding-left: 3rem;
-      margin-left: 10px;
+      background: #48c2c5;
+      width: 10px;
+      height: 10px;
+      left: -6px;
+      top: 8px;
+      box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.05);
+      border-radius: 50%;
     }
     &:after {
       content: '';
