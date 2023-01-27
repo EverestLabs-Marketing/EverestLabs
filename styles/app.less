@@ -875,9 +875,15 @@ footer {
 }
 
 #footerBlocksTop {
-
   padding-top: 0rem;
   padding-bottom: 0px;
+  &:before {
+    content: "";
+    position: relative;
+    background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/bca69b74-c2f8-427e-a579-befd805581d4/robot-arm.png?content-type=image%2Fpng) no-repeat 0px 0px;
+    background-size: 90%;
+    width: 100%;
+  }
   .sqs-col-12 {
     position: relative;
     background: rgb(73,194,197);
@@ -896,13 +902,6 @@ footer {
       position: absolute;
       width: 100%;
       z-index: -3;
-    }
-    &:after {
-      content: "";
-      position: relative;
-      background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/bca69b74-c2f8-427e-a579-befd805581d4/robot-arm.png?content-type=image%2Fpng) no-repeat 0px 0px;
-      background-size: 90%;
-      width: 100%;
     }
   }
   p {
