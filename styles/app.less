@@ -772,7 +772,9 @@ header.Header--top {
       }
       ul {
         li {
-         display: none;
+         &:marker {
+          content: "";
+         }
         }
       }
     }
