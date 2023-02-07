@@ -232,26 +232,16 @@ header.Header--top {
 }
 
 .gradient-underline {
-  display: inline-block;
-  margin-right: -3rem;
-  margin-bottom: -4rem !important;
-  margin-left: -3rem;
-  padding-right: 3rem;
-  padding-bottom: 4rem;
-  padding-left: 3rem;
-  background-image: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/b86247b8-1171-40fb-a6ae-59d7a29af532/underline-01.png?content-type=image%2Fpng);
-  background-position: 50% 50%;
-  background-size: 80%;
-  background-repeat: no-repeat;
+  background-color: #46b96c;
 
-  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-  transition: background-size 0.25s ease-in;
-  &:hover {
-    background-size: 100% 88%;
-  }
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 60%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-2deg);
 }
 
 #homepage-featured {
