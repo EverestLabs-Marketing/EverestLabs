@@ -408,10 +408,13 @@ header.Header--top {
 }
 
 #homepage-recycleos {
-  .sqs-block-button {
-    display: table;
-    text-align: center;
-    margin: 0px auto;
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    .sqs-block-button {
+      display: table;
+      text-align: center;
+      margin: 0px auto;
+    }
   }
 }
 
