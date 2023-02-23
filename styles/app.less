@@ -193,6 +193,10 @@ header.Header--top {
 .Index-page--has-image {
   min-height: calc(78vh - 86px) !important;
   border-radius: 0px 0px 11rem;
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    height: 78vh;
+  }
   .Index-page-content {
     padding-bottom: 5rem;
   }
