@@ -471,6 +471,10 @@ header.Header--top {
       }
       &:nth-child(2) {
         margin-left: -3rem;
+         /* Small only */
+         @media screen and (max-width: 39.9375em) {
+          margin-left: -2rem !important; 
+        }
       }
       p {
         font-size: 1.1rem;
