@@ -285,6 +285,14 @@ header.Header--top {
     background-size: cover;
     padding: 1.5rem 3rem;
     min-width: 100%;
+    /* Large only */
+    @media screen and (min-width: 75em) {
+      .Index-page-content {
+        max-width: 90em;
+      
+      }
+    }
+    /* Large down */
     @media screen and (max-width: 63.9375em) {
       padding: 1rem;
     }
