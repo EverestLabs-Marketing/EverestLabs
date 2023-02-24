@@ -1185,7 +1185,14 @@ header.Header--top {
   background: #eee;
   .Index-page-content {
     padding: 0px;
+    /* Text Content */
     #block-yui_3_17_2_1_1674854999500_4309 {
+      /* Medium and up */
+      @media screen and (min-width: 40em) {
+        img {
+          display: none;
+        }
+      }
       /* Small only */
       @media screen and (max-width: 39.9375em) {
         padding: 2rem;
