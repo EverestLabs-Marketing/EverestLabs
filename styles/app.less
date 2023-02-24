@@ -1475,6 +1475,17 @@ header.Header--top {
     /* Text Content */
     #block-yui_3_17_2_1_1675043681222_2237 {
       padding-right: 5rem;
+      /* Small only */
+      @media screen and (max-width: 39.9375em) {
+        text-align: center;
+        padding: 3rem 2rem !important;
+        img {
+          display: block !important;
+        }
+      }
+      img {
+        display: none;
+      }
     }
   }
 }
