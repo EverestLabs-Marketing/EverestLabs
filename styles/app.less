@@ -220,7 +220,10 @@ header.Header--top {
     min-height: calc(78vh - 86px) !important;
     border-radius: 0;
     .sqs-grid-12 {
-      
+      /* Large and up */@media screen and (min-width: 64em) {
+        max-width: 30rem;
+        margin: 0xp auto;
+      }
     }
   }
 }
