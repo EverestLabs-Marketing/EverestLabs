@@ -1413,6 +1413,7 @@ header.Header--top {
   background: #eee;
   .Index-page-content {
     padding: 0px;
+    /* Image Content */
     #block-e921b373a2e613ebe5d9 {
       background: white url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/b511176f-8d6f-4d8c-b811-0fce58c6bee6/performance-guaranteed.png?content-type=image%2Fpng)no-repeat center 0;
       background-size: cover;
@@ -1422,6 +1423,10 @@ header.Header--top {
         height: 60vh;
         padding-right: 5rem;
       }   
+      /* Small only */
+      @media screen and (max-width: 39.9375em) {
+        display: none;
+      }
     }
     #block-79733c3ad648d80e9dc3 {
       padding-left: 5rem;
