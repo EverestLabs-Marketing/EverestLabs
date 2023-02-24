@@ -1663,8 +1663,12 @@ footer {
   }
 }
 #footerBlocksMiddle {
-  text-align: center;
+
   padding: 7rem 0 3rem;
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    text-align: center;
+  }
   /* Logo */
   #block-yui_3_17_2_1_1674596652143_5030 {
     max-width: 8rem;
