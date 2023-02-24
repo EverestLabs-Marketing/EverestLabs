@@ -959,6 +959,10 @@ header.Header--top {
 #solutions-breakdown {
   background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/85062a02-8f99-4f76-bfaf-9b50212b917d/top-wave.png?content-type=image%2Fpng) no-repeat center 5rem;
   margin-top: -7rem;
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    background-position: center bottom !important;
+  }
   .Index-page-content {
     /* Medium and up */
     @media screen and (min-width: 70em) {
@@ -969,10 +973,7 @@ header.Header--top {
       padding-left: 1rem;
       padding-right: 1rem;
     }
-    /* Small only */
-    @media screen and (max-width: 39.9375em) {
-      background-position: center bottom !important;
-    }
+
   }
   .code-block {
     .solutions-workflow {
