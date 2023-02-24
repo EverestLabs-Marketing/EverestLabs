@@ -1467,7 +1467,7 @@ header.Header--top {
         height: 60vh;
         padding-left: 5rem;
       }
-       /* Small only */
+      /* Small only */
        @media screen and (max-width: 39.9375em) {
         display: none;
       }
@@ -1494,6 +1494,7 @@ header.Header--top {
   background: #eee;
   .Index-page-content {
     padding: 0px;
+    /* Image Content */
     #block-b9f92a3d170798748444 {
       background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/39eaaf8a-4567-4489-ad7f-f2c5d56c452f/all-inclusive-pricing.jpg?content-type=image%2Fjpeg)no-repeat center 0;
       background-size: cover;
@@ -1503,9 +1504,24 @@ header.Header--top {
         height: 60vh;
         padding-right: 5rem;
       }   
+      /* Small only */
+      @media screen and (max-width: 39.9375em) {
+        display: none;
+      }
     }
     #block-870aebdb32c69a78cbad {
       padding-left: 5rem;
+      /* Small only */
+      @media screen and (max-width: 39.9375em) {
+        text-align: center;
+        padding: 3rem 2rem !important;
+        img {
+          display: block !important;
+        }
+      }
+      img {
+        display: none;
+      }
     }
   }
 }
