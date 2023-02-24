@@ -704,6 +704,10 @@ header.Header--top {
   .Index-page-content {
     padding-top: 0px;
     min-width: 100%;
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+      padding-top: 3rem;      
+    }
     h2 {
       strong {
         background: #48c2c5;
