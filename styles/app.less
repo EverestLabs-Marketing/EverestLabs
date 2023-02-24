@@ -188,9 +188,18 @@ header.Header--top {
   .Header-tagline {
     color: black;
   }
-  a {
-    color: black !important;
-  }
+  .Header-nav-item {
+    color: #009B5C !important;
+      &:nth-last-child(2) {
+        display: none;
+        color: white;
+        border: 2px solid #009B5C !important;
+      }
+      &:last-child {
+        color: white !important;
+        margin-left: 1rem;
+      }
+    }
 }
 
 /* Large only */
