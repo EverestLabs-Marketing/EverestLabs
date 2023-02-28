@@ -1534,7 +1534,21 @@ video {
             height: 20px;
             width: 20px;
           }
-          
+          span {
+            position: relative;
+            &:before {
+              background-color: #009b5c;
+
+              content: "";
+              position: absolute;
+              width: calc(100% + 4px);
+              height: 50%;
+              left: -2px;
+              bottom: 0;
+              z-index: -1;
+              transform: rotate(-2deg);
+            }
+          }
         }
       }
     }
