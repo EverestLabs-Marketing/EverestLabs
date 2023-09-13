@@ -106,12 +106,16 @@ Green: #009b5c
 /* Homepage - Featured News Summary Block Main */
 #block-yui_3_17_2_1_1694627027102_5253 {
   .summary-item {
-    float: left;
-    width: 50%;
+
     background: white;
     padding-bottom: 0px !important;
     border: 1px solid #eee;
     border-radius: 3px;
+    /* Medium and up */
+    @media screen and (min-width: 40em) {
+      float: left;
+      width: 50%;
+    }
     .summary-thumbnail {
       margin-top: 4px;
       margin-left: 4px;
