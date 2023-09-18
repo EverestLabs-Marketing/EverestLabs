@@ -230,19 +230,19 @@ Green: #009b5c
 /* Homepage Free Site Survey CTA   */
 #home-v2-site-survey-cta {
   padding-top: 9rem;
-  border-radius: 3px;
-  &:before {
-    content: "";
-    position: absolute;
-    background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/634993f7-338b-4f5d-903b-2107d241f391/photo-site-survey-cta.png?content-type=image%2Fpng) no-repeat center 3rem;
-    background-size: 74%;
-    bottom: 8rem;
-    left: 13px;
-    width: 19rem;
-    height: 15rem;
-    z-index: 1;
+  .cta-block {
+    &:before {
+      content: "";
+      position: absolute;
+      background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/634993f7-338b-4f5d-903b-2107d241f391/photo-site-survey-cta.png?content-type=image%2Fpng) no-repeat center 3rem;
+      background-size: 74%;
+      bottom: 8rem;
+      left: 13px;
+      width: 19rem;
+      height: 15rem;
+      z-index: 1;
+    }
   }
-  
   /* Large only */
   @media screen and (min-width: 64em) {
     max-width: 1000px !important;
