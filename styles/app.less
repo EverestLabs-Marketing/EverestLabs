@@ -528,11 +528,13 @@ Green: #009b5c
     background: white;
     flex-grow: 1;
     width: 30%;
-    margin: 0px 1rem;
     border-radius: 3px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     opacity: 1;
     transition: 0.3s;
+    &:nth-child(2) {
+      display: none;
+    }
     &:hover {
       opacity: 1;
       a {
