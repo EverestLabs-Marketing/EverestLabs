@@ -515,12 +515,17 @@ Green: #009b5c
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-  }
-  a {
-    &:before {
-      content: "RECYCLEOS";
+    li {
+      flex-grow: 1;
+      width: 33%;
+      a {
+        &:before {
+          content: "RECYCLEOS";
+        }
+      }
     }
   }
+
 }
 
 /* Homepage v2 End */
