@@ -732,6 +732,7 @@ Green: #009b5c
       padding: 0px;
       margin:0px;
       li {
+        position: relative;
         font-weight: 600;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -739,10 +740,11 @@ Green: #009b5c
         &:before {
           content: "";
           display: inline-block;
-          position: relative;
+          position: absolute;;
           background: #EDF9F9;
           color: #48C2C5;
           padding: 10px;
+          top: 0px;
           border: 3px solid white;
           border-radius: 3rem;
           box-shadow: 0px 0px 0px 5px rgba(72, 194, 197, 0.05);
