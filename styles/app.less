@@ -736,6 +736,22 @@ Green: #009b5c
         padding-top: 1rem;
         padding-bottom: 1rem;
         border-bottom: 1px solid #eee;
+        &:before {
+          content: "";
+          &:before {
+            position: relative;
+            background: #EDF9F9;
+            color: #48C2C5;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            left: -1rem;
+            top: -17px;
+            border: 3px solid white;
+            border-radius: 3rem;
+            box-shadow: 0px 0px 0px 5px rgba(72, 194, 197, 0.05);
+          }
+        }
         &:last-child {
          border: none;
         }
