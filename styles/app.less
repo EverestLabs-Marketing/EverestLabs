@@ -68,6 +68,10 @@
 
 .box-tooltip {
   border: 2px solid #009b5c;
+  &:hover {
+    background: #009b5c;
+    color: white;
+  }
 }
 
 .box.ai {
@@ -98,7 +102,7 @@
     left: -49px;
   }
 }
-.box-wrap{
+.box-wrap {
   margin: 0 auto;
   height: 100px;
   width: 0%;
@@ -107,7 +111,7 @@
   flex: 1;
   position: relative;
 }
-.box-line:before{
+.box-line:before {
   content: '';
   width: 1px;
   background: #ccc;
@@ -117,7 +121,7 @@
   bottom: -30px;
   margin-left: -1px;
 }
-.box-line:after{
+.box-line:after{ 
   content: '';
   height: 1px;
   background: #ccc;
