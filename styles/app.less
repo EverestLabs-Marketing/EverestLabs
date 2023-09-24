@@ -156,6 +156,10 @@
 
 .float {
   transition: all 0.4s ease-in-out;
+  &:before {
+    transform: translatey(0px);
+    animation: float 6s ease-in-out 
+  }
 }
 @keyframes float {
 	0% {
