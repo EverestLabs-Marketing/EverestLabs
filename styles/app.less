@@ -1252,6 +1252,10 @@ blockquote {
     margin: 0px 1rem;
     width: calc(100% / 6.5);
     height: 7rem;
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+      width: calc(100% / 3.5);
+    }
   }
   .edison {
     background: url(https://images.squarespace-cdn.com/content/v1/63bda5893fe1997b791a588a/1691557381263-E66A5HBGPNKUTU15ECSU/edison-white.png?format=2500w) no-repeat center;
