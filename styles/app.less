@@ -1093,10 +1093,7 @@ blockquote {
     li { 
       display: inline-flex;
       padding: 5px !important;
-      /* Small only */
-      @media screen and (max-width: 39.9375em) {
-        padding: 0px;
-      }
+  
       a {
         background: rgba(0, 0, 0, .03);
         font-weight: 600;
@@ -1106,6 +1103,9 @@ blockquote {
         @media screen and (max-width: 63.9375em) {
           font-size: 10px;
           padding: 0px 13px;
+        } /* Small only */
+        @media screen and (max-width: 39.9375em) {
+          padding: 0px;
         }
       }
       .active {
