@@ -925,7 +925,10 @@ blockquote {
     letter-spacing: 0.5px;
     padding: 1rem 0 0 3rem;
     margin-bottom: 1.5rem;
-   
+   /* Small only */
+   @media screen and (max-width: 39.9375em) {
+    padding-bottom: 0.5rem;
+   }
     &:last-child {
       margin-bottom: 1rem;
     }
