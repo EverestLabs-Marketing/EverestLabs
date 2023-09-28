@@ -1259,7 +1259,8 @@ blockquote {
     height: 7rem;
     /* Small only */
     @media screen and (max-width: 39.9375em) {
-      width: calc(100% / 3.5);
+      flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+      /*demo*/
     }
   }
   .edison {
