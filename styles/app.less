@@ -1380,6 +1380,10 @@ blockquote {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     opacity: 1;
     transition: 0.3s;
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+      width: 100%;
+    }
     &:nth-child(2) {
      margin: 0px 1rem;
     }
