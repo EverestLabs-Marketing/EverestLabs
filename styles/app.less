@@ -795,7 +795,12 @@ blockquote {
 
 /* Homepage - Featured News Summary Block Main */
 #block-yui_3_17_2_1_1694627027102_5253 {
-
+  position: relative;
+  &:after {
+    content: "What's New";
+    display: inline-block;
+    position: absolute;
+  }
   .summary-item {
     background: white;
     padding-bottom: 0px !important;
