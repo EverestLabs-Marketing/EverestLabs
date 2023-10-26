@@ -16,7 +16,7 @@
         {.end}
        
       </span>
-       <a href="#">test</a>
     </span>{.end}{.or}{.section collection}<a href="{fullUrl}" class="Header-nav-item{.if active} Header-nav-item--active{.end}" data-test="template-nav">{navigationTitle}</a>{.end}{.end}{.end}{.section externalLink}<a href="{url}"{.section newWindow} target="_blank"{.end} class="Header-nav-item">{title}</a>{.end}{.end}
+    <a href="#">test</a>
   </div>
 {.end}
