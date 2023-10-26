@@ -27,5 +27,5 @@
       </a>
     {.end}
   {.end}
-  <a class="v2-button hs-cta-trigger-button hs-cta-trigger-button-142085020755 go26732895" style="margin-top: 1rem;">Talk To An Expert</a>
+  <a class="v2-button hs-cta-trigger-button hs-cta-trigger-button-142085020755 go26732895" style="display: inline-block; margin-top: 1rem;">Talk To An Expert</a>
 {.end}
