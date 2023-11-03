@@ -22,12 +22,13 @@
   flex-wrap: wrap;
   width: 100%;
   li {
-    background: red;
-
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    &:before {
+      content: "icon"
+    }
   }
 }
 
