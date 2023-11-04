@@ -31,12 +31,15 @@
 
 .v2-2-column-points {
   padding-left: 0px;
-
   list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  /* Small only */
+  @media screen and (max-width: 39.9375em) {
+    display: block;
+  }
   li {
     padding-right: 2rem;
 
