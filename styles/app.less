@@ -5,8 +5,11 @@
     background: white;
     padding: 1rem;
     border-radius: 10px;
-    flex-grow: 1;
-    width: 25%;
+    /* Medium and up */
+    @media screen and (min-width: 40em) {
+      flex-grow: 1;
+      width: 25%;
+    }
     p {
       display: block;
     }
