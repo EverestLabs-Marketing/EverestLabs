@@ -33,10 +33,6 @@
         float: left;
         input {
           margin-right: 10px;
-          /* Small only */
-           @media screen and (max-width: 39.9375em) {
-            margin: 0px auto;
-           }
         }
         &:nth-child(2) {
           margin-left: 1rem;
@@ -56,6 +52,11 @@
       input {
         display: block;
         border: 1px solid #ddd !important;
+         /* Small only */
+         @media screen and (max-width: 39.9375em) {
+          margin: 0px auto;
+          border: none;
+         }
       }
     }
     .total {
