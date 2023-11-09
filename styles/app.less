@@ -32,8 +32,12 @@
       }
     }
     .input {
-      float: left;
+
       margin-top: 1.5rem;
+       /* Medium and up */
+       @media screen and (min-width: 40em) {
+        float: left;
+       }
       input {
         display: block;
         border: 1px solid #ddd !important;
