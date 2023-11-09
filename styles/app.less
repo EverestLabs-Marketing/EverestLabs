@@ -33,10 +33,6 @@
         float: left;
         input {
           margin-right: 10px;
-          /* Small only */
-          @media screen and (max-width: 39.9375em) {
-            margin-right: 0px;
-          }
         }
         &:nth-child(2) {
           margin-left: 1rem;
@@ -70,8 +66,10 @@
     &:first-child {
       margin-right: 1rem;
       border-radius: 10px;
+      /* Small only */
       @media screen and (max-width: 39.9375em) {
         text-align: center;
+        margin-right: 0px;
       }
     }
     &:nth-child(2) {
