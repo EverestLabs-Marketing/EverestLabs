@@ -17,6 +17,6 @@
        
       </span>
     </span>{.end}{.or}{.section collection}<a href="{fullUrl}" class="Header-nav-item{.if active} Header-nav-item--active{.end}" data-test="template-nav">{navigationTitle}</a>{.end}{.end}{.end}{.section externalLink}<a href="{url}"{.section newWindow} target="_blank"{.end} class="Header-nav-item">{title}</a>{.end}{.end}
-    <a class="v2-button hs-cta-trigger-button hs-cta-trigger-button-145016342871" style="margin-right: 1rem;">Talk To An Expert</a>
+    <a class="v2-button hs-cta-trigger-button hs-cta-trigger-button-145016342871" style="margin-right: 1rem;">Subscribe Now</a>
   </div>
 {.end}
