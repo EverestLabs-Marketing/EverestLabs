@@ -38,17 +38,6 @@
       padding-right: 0px;
     }
   }
-  .v2-hero {
-    /* Large and up */
-    @media screen and (min-width: 64em) {
-      margin-top: -7rem;
-      padding-top: 12rem;
-    }
-    /* Medium and down */
-    @media screen and (max-width: 63.9375em) {
-      padding: 3rem;
-    }
-  }
   /* Photo */
   #block-yui_3_17_2_1_1699563515657_6363 {
     /* Small only */
@@ -71,8 +60,18 @@
   #reclaimer-content0 {
     .Index-page-content {
       max-width: 100% !important;
+      
       .v2-hero {
         max-width: 100%;
+        /* Large and up */
+         @media screen and (min-width: 64em) {
+          margin-top: -7rem;
+          padding-top: 12rem;
+        }
+        /* Medium and down */
+        @media screen and (max-width: 63.9375em) {
+          padding: 3rem;
+        }
       }
       .v2-hero-wrapper {
         max-width: 78rem; 
