@@ -9,7 +9,11 @@
   #packaging-manufacturer-hero {
     background: #eee;
     .Index-page-content  {
-      margin-top: -6rem;
+      /* Large and up */
+      @media screen and (min-width: 64em) {
+        margin-top: -6rem;
+      }
+
     }
   }
   .hero {
