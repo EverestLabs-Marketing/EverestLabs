@@ -17,10 +17,13 @@
     }
   }
   .hero {
-    padding-top: 10rem;
     padding-bottom: 3rem;
     margin: 0px auto;
     max-width: 1300px;
+    /* Large and up */
+    @media screen and (min-width: 64em) {
+      padding-top: 10rem;
+    }
     .hero-text-wrapper {
       /* Medium and up */
       @media screen and (min-width: 40em) {
