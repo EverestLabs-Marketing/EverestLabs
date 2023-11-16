@@ -126,7 +126,11 @@
   }
   .custom-pre-footer {
     background: #eee;
-    padding: 5rem 26rem 4rem;
+    /* Large and up */
+    @media screen and (min-width: 64em) {
+      padding: 5rem 26rem 4rem;
+    }
+    
   }
 }
 
