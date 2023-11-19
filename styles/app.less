@@ -695,11 +695,14 @@
   li {
     font-weight: 600;
     padding-right: 2rem;
-
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+      margin-bottom: 3rem;
+    }
     &:before {
       content: "";
       width: 4rem;
