@@ -127,7 +127,7 @@
       @media screen and (max-width: 39.9375em) {
         padding-bottom: 0px;
       }
-      
+
     }
     .hubspot-form {
       background: white;
@@ -150,13 +150,23 @@
   #packaging-manufacturer-hero-v2 {
     .hero-text-wrapper {
       float: left;
-     /* Medium down */
+       /* Medium only */
+       @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        padding-top: 10rem !important;
+        }
+      }
+       /* Medium down */
      @media screen and (max-width: 63.9375em) {
-        float: inherit;
-        text-align: center;
-        padding-top: 5rem !important;
-        max-width: 100% !important;
-      } 
+      float: inherit;
+      text-align: center;
+      padding-top: 5rem !important;
+      max-width: 100% !important;
+    } 
+      /* Small only */
+      @media screen and (max-width: 39.9375em) {
+        padding-top: 5rem;
+      }
+    
     }
     .hubspot-form {
       margin: 0px auto; 
