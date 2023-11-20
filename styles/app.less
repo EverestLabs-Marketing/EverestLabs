@@ -145,7 +145,10 @@
 
   #packaging-manufacturer-hero-v2 {
     .hero-text-wrapper {
-      float: left;
+      /* Large and up */
+      @media screen and (min-width: 64em) {
+        float: left;
+      } 
     }
   }
 
