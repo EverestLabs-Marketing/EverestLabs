@@ -1,5 +1,26 @@
 #increase-material-recovery-hero-v2 {
-  
+  .hero-text-wrapper {
+    float: left;
+    /* Small only */
+    @media screen and (max-width: 39.9375em) {
+      margin-top: -1rem;
+    }
+    /* Medium only */
+     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      margin-top: 0rem;
+     }
+     /* Medium only */
+     @media screen and (min-width: 60em) and (max-width: 63.9375em) {
+       margin-top: 3rem;
+      }
+     /* Medium down */
+     @media screen and (max-width: 63.9375em) {
+      float: inherit;
+      text-align: center;
+      padding-top: 3rem !important;
+      max-width: 100% !important;
+    } 
+  }
 }
 
 .hubspot-form {
