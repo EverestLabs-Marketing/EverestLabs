@@ -106,10 +106,15 @@
     .cell {
       padding: 1rem 2rem;
       &:first-child {
-        padding-left: 0px;
+        /* Large and up */
+        @media screen and (min-width: 64em) {
+          padding-left: 0px;
+        }
       }
       &:last-child {
-        padding-right: 0px;
+        @media screen and (min-width: 64em) {
+          padding-left: 0px;
+        }
       }
     }
     .medium-3 {
