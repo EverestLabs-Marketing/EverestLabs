@@ -191,13 +191,17 @@
   }
   .points-container {
     .card {
-      flex: 30%;
+     
       background: white;
       padding: 1rem;
-      
+      /* Medium only */
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        flex: 30%;
+      }
       &:first-child {
         margin-right: 10px;
       }
+      
     }
   }
   blockquote {
