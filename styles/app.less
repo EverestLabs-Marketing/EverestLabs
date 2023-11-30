@@ -145,6 +145,7 @@
     }
   }
   blockquote {
+    position: relative;
     font-size: 2.5rem;
     padding: 4rem 5rem;
     font-weight: 500;
@@ -156,7 +157,10 @@
       margin: 0px;
     }
     &:before {
-      content: "test";
+      content: "";
+      width: 2rem;
+      height: 2rem;
+      border: 1.5px solid #009b5c;
     }
     span {
       position: relative;
