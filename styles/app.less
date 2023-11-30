@@ -228,7 +228,12 @@
   .testimonials {
     max-width: 69rem;
     .testimonial {
-      
+      &:first-child {
+        /* Medium and up */
+        @media screen and (min-width: 40em) {
+          border-right: 1px solid black;
+        }
+      }
     }
   }
   blockquote {
