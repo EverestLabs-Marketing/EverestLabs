@@ -162,7 +162,13 @@
     .cell {
       padding-right: 1.5rem;
     }
-    .medium-6, .large-12 {
+    .large-12 {
+      /* Small only */
+      @media screen and (max-width: 39.9375em) {
+        flex: 100%;
+      }
+    }
+    .medium-6 {
       text-align: left;
       flex: 43%;
       /* Custom Medium only */
