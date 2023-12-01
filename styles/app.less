@@ -217,7 +217,11 @@
         flex: 30%;
       }
       &:first-child {
-        margin-right: 10px;
+        /* Medium up */
+        @media screen and (min-width: 40em) {
+          margin-right: 10px;
+        
+        }
       }
       p {
         font-size: 17px;
