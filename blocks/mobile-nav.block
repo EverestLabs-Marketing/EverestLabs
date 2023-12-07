@@ -1,13 +1,13 @@
 {.section items}
-<!--<span class="Header-nav-item Header-nav-item--folder">
+<span class="Header-nav-item Header-nav-item--folder">
     <a href="/resources-1" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
-    <span class="Header-nav-folder">
+    <span class="">
       <a href="#home-v2-case-studies" id="menu-nav-robotsorting" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
       <a href="#home-v2-case-studies" id="menu-nav-auditcompliance" class="Header-nav-folder-item" data-test="template-nav">Audit & compliance</a>
       <a href="#home-v2-case-studies" id="menu-nav-lineoptimization" class="Header-nav-folder-item" data-test="template-nav">Line optimization</a>
       <a href="#home-v2-case-studies" id="menu-nav-plantmonitoring"  class="Header-nav-folder-item" data-test="template-nav">Plant Monitoring</a>
     </span>
-  </span>-->
+  </span>
   <!-- Custom Link -->
   {.repeated section @}
     {.collection?}
