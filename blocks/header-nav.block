@@ -1,7 +1,7 @@
 {.section items}
   <div class="Header-nav-inner">
   <!-- Custom Link -->
-  <span class="Header-nav-item Header-nav-item--folder">
+   <span class="Header-nav-item Header-nav-item--folder">
       <a href="/resources-1" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
       <span class="Header-nav-folder">
         <a href="https://www.gearthinc.com/resources/#block-edcd4d25b1e098674697" class="Header-nav-folder-item" data-test="template-nav">Resources</a>
