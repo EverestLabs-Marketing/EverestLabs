@@ -2,10 +2,10 @@
 <span class="">
     <a href="" class="Mobile-overlay-nav-item">Solutions</a>
     <span class="">
-      <a href="home/#home-v2-case-studies">Robotic sorting</a>
-      <a href="home#home-v2-case-studies">Audit & Compliance</a>
-      <a href="home#home-v2-case-studies">Line optimization</a>
-      <a href="home#home-v2-case-studies">Plant Monitoring</a>
+      <a href="/home/#home-v2-case-studies">Robotic sorting</a>
+      <a href="/home#home-v2-case-studies">Audit & Compliance</a>
+      <a href="/home#home-v2-case-studies">Line optimization</a>
+      <a href="/home#home-v2-case-studies">Plant Monitoring</a>
     </span>
   </span>
   {.repeated section @}
