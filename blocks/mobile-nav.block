@@ -1,6 +1,6 @@
 {.section items}
 <span class="">
-    <a href="" class="">Solutions</a>
+    <a href="" class="Mobile-overlay-nav-item">Solutions</a>
     <span class="">
       <a href="#home-v2-case-studies" id="menu-nav-robotsorting">Robotic sorting</a>
       <a href="#home-v2-case-studies" id="menu-nav-auditcompliance">Audit & Compliance</a>
