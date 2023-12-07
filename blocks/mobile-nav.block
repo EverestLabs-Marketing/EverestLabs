@@ -1,5 +1,13 @@
 {.section items}
-
+<span class="">
+    <a href="" class="Mobile-overlay-nav-item">Solutions</a>
+    <span class="">
+      <a href="home/#home-v2-case-studies">Robotic sorting</a>
+      <a href="#home-v2-case-studies" id="menu-nav-auditcompliance">Audit & Compliance</a>
+      <a href="#home-v2-case-studies" id="menu-nav-lineoptimization">Line optimization</a>
+      <a href="#home-v2-case-studies" id="menu-nav-plantmonitoring">Plant Monitoring</a>
+    </span>
+  </span>
   {.repeated section @}
     {.collection?}
       {.folder?}
