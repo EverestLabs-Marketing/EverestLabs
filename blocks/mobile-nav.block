@@ -1,5 +1,5 @@
 {.section items}
-<span class="Header-nav-item Header-nav-item--folder">
+  <span class="Header-nav-item Header-nav-item--folder">
     <a href="#!" class="Mobile-overlay-nav-item" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
     <span class="">
       <a href="#home-v2-case-studies" id="menu-nav-robotsorting" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
