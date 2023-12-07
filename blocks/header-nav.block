@@ -1,16 +1,16 @@
 {.section items}
   <div class="Header-nav-inner">
-  <!-- Custom Link -->
+   <!-- Custom Link -->
    <span class="Header-nav-item Header-nav-item--folder">
-      <a href="/resources-1" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
-      <span class="Header-nav-folder">
-        <a href="#home-v2-case-studies" id="menu-nav-robotsorting" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
-        <a href="#home-v2-case-studies" id="menu-nav-auditcompliance" class="Header-nav-folder-item" data-test="template-nav">Audit & compliance</a>
-        <a href="#home-v2-case-studies" id="menu-nav-lineoptimization" class="Header-nav-folder-item" data-test="template-nav">Line optimization</a>
-        <a href="#home-v2-case-studies" id="menu-nav-plantmonitoring"  class="Header-nav-folder-item" data-test="template-nav">Plant Monitoring</a>
-      </span>
+    <a href="/resources-1" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
+    <span class="Header-nav-folder">
+      <a href="#home-v2-case-studies" id="menu-nav-robotsorting" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
+      <a href="#home-v2-case-studies" id="menu-nav-auditcompliance" class="Header-nav-folder-item" data-test="template-nav">Audit & compliance</a>
+      <a href="#home-v2-case-studies" id="menu-nav-lineoptimization" class="Header-nav-folder-item" data-test="template-nav">Line optimization</a>
+      <a href="#home-v2-case-studies" id="menu-nav-plantmonitoring"  class="Header-nav-folder-item" data-test="template-nav">Plant Monitoring</a>
     </span>
-    <!-- Custom Link -->
+  </span>
+  <!-- Custom Link -->
     {.repeated section @}{.collection?}{.folder?}{.index?}{.section collection}<a href="{fullUrl}" class="Header-nav-item{.if active} Header-nav-item--active{.end}" data-test="template-nav">{navigationTitle}</a>{.end}{.or}<span class="Header-nav-item Header-nav-item--folder">
 
       <a href="{collection.fullUrl}" class="Header-nav-folder-title{.if folderActive} Header-nav-folder-title--active{.end}" data-controller="HeaderNavFolderTouch">{collection.navigationTitle}</a>
