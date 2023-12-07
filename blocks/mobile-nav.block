@@ -8,7 +8,6 @@
       <a href="#home-v2-case-studies" id="menu-nav-plantmonitoring"  class="Header-nav-folder-item" data-test="template-nav">Plant Monitoring</a>
     </span>
   </span>
-  <!-- Custom Link -->
   {.repeated section @}
     {.collection?}
       {.folder?}
