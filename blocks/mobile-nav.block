@@ -1,5 +1,5 @@
 {.section items}
-  <!-- Custom Link -->
+
   {.repeated section @}
     {.collection?}
       {.folder?}
