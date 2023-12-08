@@ -4,7 +4,7 @@
    <span class="Header-nav-item Header-nav-item--folder">
       <a href="/resources-1" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
       <span class="Header-nav-folder">
-        <a href="#home-v2-case-studies" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
+        <a href="/mrfs" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
         <a href="#home-v2-case-studies" class="Header-nav-folder-item" data-test="template-nav">Audit & compliance</a>
         <a href="#home-v2-case-studies" class="Header-nav-folder-item" data-test="template-nav">Line optimization</a>
         <a href="#home-v2-case-studies" class="Header-nav-folder-item" data-test="template-nav">Plant Monitoring</a>
