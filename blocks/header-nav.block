@@ -2,7 +2,7 @@
   <div class="Header-nav-inner">
   <!-- Custom Link -->
    <span class="Header-nav-item Header-nav-item--folder">
-      <a href="/resources-1" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
+      <a href="/resources-1" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Customers</a>
       <span class="Header-nav-folder">
         <a href="/mrfs" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
         <a href="#home-v2-case-studies" class="Header-nav-folder-item" data-test="template-nav">Audit & compliance</a>
