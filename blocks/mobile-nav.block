@@ -1,11 +1,20 @@
 {.section items}
 <span class="">
-    <a href="#home-v2-case-studies" class="Mobile-overlay-nav-item">Solutions</a>
+    <a href="/home/#home-v2-case-studies" class="Mobile-overlay-nav-item">Customers</a>
     <span class="custom-mobile-link">
-      <a href="#home-v2-case-studies" id="mob-nav-robotsorting">Robotic sorting</a>
-      <a href="#home-v2-case-studies" id="mob-nav-audit">Audit & Compliance</a>
-      <a href="#home-v2-case-studies" id="mob-nav-lineoptimization">Line optimization</a>
-      <a href="#home-v2-case-studies" id="mob-nav-plantmonitoring">Plant Monitoring</a>
+      <a href="/home/#home-v2-case-studies">Robotic sorting</a>
+      <a href="/home/#home-v2-case-studies">Audit & Compliance</a>
+      <a href="/home/#home-v2-case-studies">Line optimization</a>
+      <a href="/home/#home-v2-case-studies">Plant Monitoring</a>
+    </span>
+  </span>
+  <span class="">
+    <a href="/home/#home-v2-case-studies" class="Mobile-overlay-nav-item">Solutions</a>
+    <span class="custom-mobile-link">
+      <a href="/home/#home-v2-case-studies">Robotic sorting</a>
+      <a href="/home/#home-v2-case-studies">Audit & Compliance</a>
+      <a href="/home/#home-v2-case-studies">Line optimization</a>
+      <a href="/home/#home-v2-case-studies">Plant Monitoring</a>
     </span>
   </span>
   {.repeated section @}
