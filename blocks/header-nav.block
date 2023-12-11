@@ -4,7 +4,7 @@
    <span class="Header-nav-item Header-nav-item--folder">
       <a href="#! class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Customers</a>
       <span class="Header-nav-folder">
-        <a href="/mrfs" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
+        <a href="/mrfs" class="Header-nav-folder-item" data-test="template-nav">Materials Recovery Facilities</a>
         <a href="/reclaimers" class="Header-nav-folder-item" data-test="template-nav">Reclaimers</a>
         <a href="/packaging-manufacturers" class="Header-nav-folder-item" data-test="template-nav">Packaging Manufacturers</a>
       </span>
@@ -14,7 +14,7 @@
    <span class="Header-nav-item Header-nav-item--folder">
       <a href="/resources-1" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
       <span class="Header-nav-folder">
-        <a href="/home#home-v2-case-studies" id="menu-nav-robotsorting" class="Header-nav-folder-item" data-test="template-nav">Materials Recovery Facilities</a>
+        <a href="/home#home-v2-case-studies" id="menu-nav-robotsorting" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
         <a href="/home#home-v2-case-studies" id="menu-nav-auditcompliance" class="Header-nav-folder-item" data-test="template-nav">Audit & compliance</a>
         <a href="/home#home-v2-case-studies" id="menu-nav-lineoptimization" class="Header-nav-folder-item" data-test="template-nav">Line optimization</a>
         <a href="/home#home-v2-case-studies" id="menu-nav-plantmonitoring"  class="Header-nav-folder-item" data-test="template-nav">Plant Monitoring</a>
