@@ -12,7 +12,7 @@
     <!-- Custom Link -->
   <!-- Custom Link -->
    <span class="Header-nav-item Header-nav-item--folder">
-      <a href="" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
+      <a href="#!" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">Solutions</a>
       <span class="Header-nav-folder">
         <a href="/home#home-v2-case-studies" id="menu-nav-robotsorting" class="Header-nav-folder-item" data-test="template-nav">Robotic sorting</a>
         <a href="/home#home-v2-case-studies" id="menu-nav-auditcompliance" class="Header-nav-folder-item" data-test="template-nav">Audit & compliance</a>
