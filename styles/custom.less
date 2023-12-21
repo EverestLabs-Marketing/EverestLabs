@@ -25,7 +25,7 @@
 #homev3-content2 .recycleos-nav { margin-top: 1rem; margin-left: -1rem; }
 #homev3-content2 .recycleos-nav a { position: relative; background: rgba(255, 255, 255, 0.3); color: white; padding: 1.9rem 1.9rem 1.9rem 5rem; margin-bottom: 1rem; border-radius: 10px; }
 #homev3-content2 .recycleos-nav #materialCharacterization:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/d3500cfe-014a-4f22-95d0-783dff846839/icon-material-characterization-white.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
-#homev3-content2 .recycleos-nav a:hover:before { filter: grayscale(100%); -webkit-filter: grayscale(100%); }
+#homev3-content2 .recycleos-nav a:hover:before { filter: grayscale(100%); /* Current draft standard */ -webkit-filter: grayscale(100%); /* New WebKit */ -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */ filter: url(resources.svg#desaturate); /* Gecko */ filter: gray; /* IE */ -webkit-filter: grayscale(1); /* Old WebKit */ }
 #homev3-content2 .recycleos-nav a:hover { color: black; background-color: #4AC1C3; /* For browsers that do not support gradients */ background: linear-gradient(#4AC1C3, #439882); }
 
 /* Medium up */
