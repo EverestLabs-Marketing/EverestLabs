@@ -1,3 +1,114 @@
-body {
-  
+.foundation .text-white { color: white !important; }
+.foundation .text-right { text-align: right; }
+.foundation .hide { display: none; }
+
+.foundation .grid-x { display: flex; }
+.foundation .grid-x.full { display: block; }
+.foundation .grid-x .cell { flex: 1; margin: 0 10px; }
+.foundation .grid-x .end { flex: inherit;  }
+
+.foundation .grid-x .medium-6 { width: 57%; }
+.foundation .grid-x .medium-5 { flex: none; width: calc(100% / 2.5); }
+.foundation .grid-x .medium-4 { width: 37%; }
+
+.foundation .button { background: #009b5c; color: #ffffff; padding: 13px 1.9rem !important; margin-left: 0px; border: 1.1px solid #009b5c; border-radius: 3px; }
+.foundation .pill { border-radius: 10rem !important; }
+.foundation .hollow.white { background: none; color: white; border-color: white; }
+.foundation .black { background: black; color: white;  border: 1.1px solid black; }
+.foundation .button-group { color: white; }
+
+.foundation h6.sub-title { color: #009b5c; font-size: 1rem; font-weight: 100; letter-spacing: 3px; margin-bottom: 0px; }
+.foundation h2 { font-size: 2.5rem; }
+.foundation h4 { font-size: 1.1rem; }
+.foundation .hero-lead { font-size: 1.9rem; line-height: 2.1rem; }
+.foundation a.arrow { color: #009b5c; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/adc29fc3-e114-4dcd-92fa-7de4267765b3/icon-arrow.png?content-type=image%2Fpng) no-repeat right center; background-size: 10px; padding-right: 1.1rem; }
+.foundation a.read { color: #009b5c; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/fba4b81e-9278-4b49-b4b0-b031ec408ee8/icon-read.png?content-type=image%2Fpng) left center no-repeat; background-size: 1.7rem; padding: 1.1rem 1.1rem 1.1rem 2.1rem; }
+
+.foundation .footer-callout { background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/86ead2e7-da34-46e2-9de3-884dbb68776f/footer-cta-background.png?content-type=image%2Fpng) no-repeat center; background-size: cover; padding: 5rem 3rem; border-radius: 10px; }
+
+/* Homepage v3 */
+#collection-6583ccfd8a5af617e948c308 .grid-x { margin: 0px auto; padding-left: 1rem; padding-right: 1rem;  max-width: 1300px; }
+
+#homev3-content1 .callout:hover { background: #009b5c !important; transition: 0.3s; }
+#homev3-content1 .callout:hover h4 { color: white !important; }
+#homev3-content1 .callout:hover p { color: white !important; }
+#homev3-content1 .callout:hover a { color: white !important; }
+
+#homev3-content2 .recycleos-nav { margin-top: 1rem; margin-left: -1rem; }
+#homev3-content2 .recycleos-nav a { position: relative; background: rgba(255, 255, 255, 0.3); color: white; padding: 1.9rem 1.9rem 1.9rem 5rem; margin-bottom: 1rem; border-radius: 10px; transition: 0.3s; }
+#homev3-content2 .recycleos-nav a:hover { color: black; background-color: #4AC1C3; /* For browsers that do not support gradients */ background: linear-gradient(#4AC1C3, #439882); }
+#homev3-content2 .recycleos-nav .active { color: black; background-color: #4AC1C3; /* For browsers that do not support gradients */ background: linear-gradient(#4AC1C3, #439882); }
+
+#homev3-content2 .recycleos-nav .material-characterization:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/d3500cfe-014a-4f22-95d0-783dff846839/icon-material-characterization-white.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; transition: 0.3s; }
+#homev3-content2 .recycleos-nav .material-characterization:hover:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/05f0997a-d90f-484c-a4a0-ad04dfdc5804/icon-material-characterization-black.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
+#homev3-content2 .recycleos-nav .material-characterization.active:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/05f0997a-d90f-484c-a4a0-ad04dfdc5804/icon-material-characterization-black.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
+
+#homev3-content2 .recycleos-nav .plant-equipment-optimization:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/186ea1a2-d5f5-4c49-9c52-62c1d921f2ac/icon-plant-equipment-optimization-white.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; transition: 0.3s; }
+#homev3-content2 .recycleos-nav .plant-equipment-optimization:hover:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/8d7254e1-3ff3-43ce-ad7d-e2d613c8d4da/icon-plant-equipment-optimization-black.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
+#homev3-content2 .recycleos-nav .plant-equipment-optimization.active:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/8d7254e1-3ff3-43ce-ad7d-e2d613c8d4da/icon-plant-equipment-optimization-black.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
+
+#homev3-content2 .recycleos-nav .bale-tracing-audits:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/f877dbcc-36f9-4251-babb-725b903a1ea3/icon-bale-tracing-audits-white.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; transition: 0.3s; }
+#homev3-content2 .recycleos-nav .bale-tracing-audits:hover:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/2a8b2f94-a8e4-4ded-b926-bc14221df071/icon-bale-tracing-audits-black.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
+#homev3-content2 .recycleos-nav .bale-tracing-audits.active:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/2a8b2f94-a8e4-4ded-b926-bc14221df071/icon-bale-tracing-audits-black.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
+
+#homev3-content2 .recycleos-nav .municipal-epr-compliance:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/63906117-9991-4f6f-b73b-238a4a8fd1a4/icon-municipal-epr-compliance-white.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; transition: 0.3s; }
+#homev3-content2 .recycleos-nav .municipal-epr-compliance:hover:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/f1415458-f00c-46df-b1ab-2934d0b06996/icon-municipal-epr-compliance-black.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
+#homev3-content2 .recycleos-nav .municipal-epr-compliance.active:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/f1415458-f00c-46df-b1ab-2934d0b06996/icon-municipal-epr-compliance-black.png?content-type=image%2Fpng) no-repeat center; background-size: 1.5rem; width: 3rem; height: 3rem; top: 1.3rem; left: 1.5rem; }
+
+#homev3-content2 .foundation .image { position: relative; }
+#homev3-content2 .foundation .caption { font-family: "Roboto"; background: #CCEBF6; font-size: 1.1rem; line-height: 1.3rem; padding: 1.5rem; border-radius: 10px; }
+
+#homev3-content4 .foundation .quote { position: relative; font-size: 1.3rem; padding: 3rem 5rem; margin: 0px auto; max-width: 1000px; border: 2px solid #009b5c; }
+#homev3-content4 .foundation .quote:before { content: ""; display: block; position: absolute; width: 3rem; height: 3rem; bottom: -2rem; left: -2rem; border: 2px solid #009b5c; }
+#homev3-content4 .foundation blockquote { position: relative; color: white; font-size: 1.9rem; line-height: 2.3rem; }
+#homev3-content4 .foundation blockquote:before { content: ""; position: absolute; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/9e2f390e-4137-4550-95db-1736d8f415b0/icon-quote-white.png?content-type=image%2Fpng)no-repeat center; background-size: 2rem; width: 3rem; height: 3rem; top: -1rem; left: -3rem; }
+#homev3-content4 .foundation blockquote cite { display: block; font-size: 1.3rem; font-weight: 100; font-style: normal; }
+
+#homev3-content5 .summary-item { border-radius: 10px 10px 0 0; }
+#homev3-content5 .summary-content { background: white; padding: 1rem; margin-top: -1rem; border-radius: 0 0 10px 10px; }
+#homev3-content5 .img-wrapper { background: white;}
+#homev3-content5 .summary-title-link { color: black; font-size: 1.1rem; }
+#homev3-content5 .summary-title-link:hover { color: #009b5c; }
+#homev3-content5 .summary-excerpt { display: none; }
+#homev3-content5 .summary-read-more-link { visibility: hidden; position: relative; margin-bottom: 1.5rem; }
+#homev3-content5 .summary-read-more-link:after { content: "Read More"; position: absolute; visibility: visible; background: url(https://images.squarespace-cdn.com/content/63bda5893fe1997b791a588a/fba4b81e-9278-4b49-b4b0-b031ec408ee8/icon-read.png?content-type=image%2Fpng) left center no-repeat; background-size: 1.7rem; color: #009b5c; padding: 1.1rem 1.1rem 1.1rem 2.1rem; margin-top: -0.5rem; left: 0px; }
+
+#homev3-content5 .summary-content { height: 11rem; }
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .summary-content { min-height: 11rem; }
+}
+
+/* Medium up */
+@media screen and (min-width: 779px) {
+  .homev3-hero { margin-top: 10rem; margin-bottom: 5rem; }
+
+  #mcImage { margin-top: -3rem; }
+  #homev3-content2 #mcImage .caption { position: absolute; bottom: -3rem; left: 7rem; width: 27rem; }
+}
+
+/* Medium down */
+@media screen and (max-width: 778px) {
+  .foundation .grid-x { margin-right: 1.1rem !important; }
+  .foundation .grid-x.full { padding-left: 0px !important; padding-right: 0px !important; } 
+  .foundation .cell { width: 100% !important; }
+
+  #homev3-content4 .foundation .quote { padding: 0px; width: 90%; }
+}
+
+/* Small only */
+@media screen and (max-width: 767px) {
+  .foundation .grid-x { display: block; }
+  /* Homepage v3 */
+  #collection-6583ccfd8a5af617e948c308 .grid-x { margin: 0px auto; padding-left: 1.5rem; padding-right: 1.5rem; }
+  #homev3-content2 #mcImage .caption { position: relative; margin-top: -3rem; z-index: 1; }
+  #homev3-content2 .grid-x { padding-right: 0px; margin-right: 9px !important; }
+  #homev3-content4 .foundation .quote blockquote{ font-size: 1.3rem; line-height: 1.9rem; }
+  #homev3-content4 .foundation .quote blockquote cite { font-size: 17px; }
+
+  /* Summary Block */
+  #block-yui_3_17_2_1_1703207427839_2661 { margin: 0 1rem 0px 2rem !important; }
+
+  .footer-callout { text-align: center; padding: 3rem 1.5rem !important; margin-right: 0px; margin-bottom: 5rem; margin-left: 1rem;}
 }
