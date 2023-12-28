@@ -4,8 +4,10 @@
 .foundation .text-white { color: white !important; }
 .foundation .text-right { text-align: right; }
 .foundation .hide { display: none; }
+.foundation .hide-for-large { display: none !important; }
 .foundation .show-for-medium { display: none; }
 .foundation .show-for-small-only { display: none !important; }
+
 
 .foundation .pagination { max-width: 1178px !important; }
 .foundation .pagination ul { display: flex; position: absolute; list-style: none; padding: 0px; margin: 0px; top: -3.5rem; right: 0px;; }
@@ -129,6 +131,7 @@
 
 /* Large and up */
 @media screen and (min-width: 64em) {
+  .foundation .hide-for-large { display: block !important; }
   #homev3-content5 .summary-content { min-height: 11rem; }
 }
 
