@@ -1,5 +1,5 @@
 {.section items}
-<span class="">
+<!--<span class="">
     <a href="#!" class="Mobile-overlay-nav-item">Customers</a>
     <span class="custom-mobile-link">
       <a href="/mrfs">Materials Recovery Facilities</a>
@@ -15,7 +15,7 @@
       <a href="/home/#home-v2-case-studies" id="mob-nav-lineoptimization">Line Optimization</a>
       <a href="/home/#home-v2-case-studies" id="mob-nav-plantmonitoring">Plant Monitoring</a>
     </span>
-  </span>
+  </span>-->
   {.repeated section @}
     {.collection?}
       {.folder?}
