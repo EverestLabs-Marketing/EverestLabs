@@ -3644,10 +3644,7 @@ header.Header--top {
   padding: 1rem;
   .Header-nav-inner {
     a {
-      color: white;
-      &:hover {
-        opacity: 0.78;
-      }
+      opacity: 1;
       /* Medium and up */
       @media screen and (min-width: 40em) {
         font-size: 17px;
@@ -3664,7 +3661,17 @@ header.Header--top {
         border-radius: 3px;
       }
     }
-    
+    .Header-nav-item {
+      &:first-child {
+        .Header-nav-folder {
+          a {
+            &:first-child {
+              display: block;
+            }
+          }
+        }
+      }
+    }
   }
 }
 }
@@ -3686,6 +3693,7 @@ top: 0px;
 .Header-nav-item {
   color: #009B5C !important;
     &:last-child {
+      color: white !important;
       margin-left: 1rem;
     }
   }
