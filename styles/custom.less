@@ -24,7 +24,7 @@
 .foundation .grid-x .cell { flex: 1; margin: 0 10px; }
 .foundation .grid-x .end { flex: inherit;  }
 .foundation .grid-x.grid-center { display: block; margin: 0px auto; }
-.foundation .grid-x.grid-center .large-6 { flex: inherit; margin: 0px auto; max-width: 60%; }
+.foundation .grid-x.grid-center .cell { flex: inherit; margin: 0px auto; }
 
 
 .foundation .grid-x .medium-6 { width: 57%; }
@@ -138,6 +138,8 @@
 /* Large and up */
 @media screen and (min-width: 64em) {
   .foundation .hide-for-large { display: none; }
+  .foundation .grid-x.grid-center .cell { max-width: 60%; }
+
   #homev3-content5 .summary-content { min-height: 14rem; }
 }
 
